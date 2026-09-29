@@ -1,0 +1,18 @@
+{
+  "name": "@fitnessapplied/formulas",
+  "version": "1.0.0",
+  "description": "The calculation engine behind the Fitness Applied tools. One source of truth for the website and the app.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "dist"],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build:velo": "node scripts/build-velo.mjs",
+    "types": "tsc"
+  },
+  "keywords": ["bmr", "tdee", "bmi", "heart-rate", "rpe", "fitness"],
+  "license": "UNLICENSED",
+  "private": true
+}
